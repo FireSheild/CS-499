@@ -23,6 +23,16 @@ Overall, this body of work reflects a transition from writing code that simply f
 Enhancement One (V2) File:
 [improved_project_v2](https://github.com/FireSheild/CS-499/tree/main/v2%20)
 
+Narrative:
+
+Version 2 was a major step into making the system easier to work with. The original version placed nearly all responsibility into one class, which made it difficult to understand and even harder to modify without breaking something else. In this revision, the primary goal was to separate concerns in a way that reflects how larger systems are actually built. Instead of letting one class handle everything, responsibilities are divided into distinct layers: models to represent data, a repository to manage storage, a service layer to handle logic, and an application entry point to control execution.
+This change is not just about organization for its own sake. By introducing a repository layer, the program now has a clear boundary between how data is stored and how it is used. This makes it easier to replace or extend storage later, whether that means switching to a database or adding persistence. The introduction of a service layer further improves clarity by centralizing business logic, such as reserving animals or adding new ones. Instead of scattering logic across different parts of the program, it is now located in one place where it can be maintained and tested more effectively.
+Another important improvement is the shift from name-based identification to ID-based identification. In the earlier version, animals were often referenced by name, which creates ambiguity and potential errors if duplicates exist. By assigning unique identifiers, the system becomes more reliable and predictable. This also aligns with how real-world systems track entities.
+The addition of a new animal type, the cat, serves as a practical test of the system’s flexibility. In the original design, adding a new type would have required modifying multiple areas of the code in inconsistent ways. In this version, the inheritance structure allows new animal types to be added with minimal changes, demonstrating that the system is becoming more extensible.
+Overall, Version 2 addresses the most fundamental issues in the original project. It replaces a tightly coupled structure with a layered approach, reduces logical errors by clarifying responsibilities, and sets the foundation for further improvements. While it is still relatively simple, it moves the project from a basic implementation toward something that can be reasonably maintained and expanded.
+
+
+
 ---
 
 ### Code Review
