@@ -1,0 +1,1 @@
+package model; public class Cat extends RescueAnimal{ public Cat(String id,String name){super(id,name);} }
