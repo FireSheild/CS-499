@@ -1,4 +1,4 @@
-**Professional Self-Assessment**
+## **Professional Self-Assessment**
 
 Throughout the Computer Science program and the development of this ePortfolio, there has been a clear progression from focusing primarily on functionality to developing a broader understanding of software design, structure, and professional practices. The work completed across courses, along with the refinement of selected artifacts, demonstrates growth in technical ability as well as in the approach to problem solving and system design.
 
@@ -15,6 +15,14 @@ Security awareness has become a more deliberate part of the development process 
 The artifacts included in this ePortfolio collectively demonstrate growth across these areas. Each enhancement builds on a previous version, showing a progression from basic functionality to more structured, efficient, and realistic implementations. The improvements in software design, algorithmic reasoning, and database integration work together to present a more complete and professional representation of development skills.
 
 Overall, this body of work reflects a transition from writing code that simply functions to developing systems that are structured, maintainable, and aligned with industry practices. The skills demonstrated through these artifacts provide a foundation for continued growth, particularly in building more complex applications and refining design approaches. This progression supports readiness to enter the field with a clearer understanding of both technical requirements and professional expectations in computer science.
+
+---
+
+## Enhancements and Narratives
+
+---
+
+### Code Review
 
 Rescue Animal System (v2, v3, v4)
 
