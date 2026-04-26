@@ -20,6 +20,9 @@ Overall, this body of work reflects a transition from writing code that simply f
 
 ## Enhancements and Narratives
 
+Enhancement One (V2) File:
+[improved_project_v2](https://github.com/FireSheild/CS-499/tree/main/v2%20)
+
 ---
 
 ### Code Review
