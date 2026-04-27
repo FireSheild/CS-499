@@ -49,6 +49,19 @@ This enhancement demonstrates the ability to evaluate and improve existing logic
 
 Through this process, the application was enhanced from a basic implementation to one that better reflects efficient and structured problem solving. This work demonstrates the ability to analyze, refactor, and optimize code using appropriate algorithms and data structures, aligning with industry practices for building scalable and maintainable software systems.
 
+Enhancement Three (V4) File:
+[improved_project_v4](https://github.com/FireSheild/CS-499/tree/main/v4)
+
+This enhancement introduces persistent data storage to the application through the integration of a relational database. The original implementation relied on in-memory data structures, which limited the system to temporary data that was lost when the program terminated. While sufficient for demonstrating basic functionality, this approach did not reflect how real-world applications manage and retain data over time.
+
+To address this limitation, SQLite was integrated using Java Database Connectivity (JDBC). SQLite was selected due to its lightweight, file-based architecture, allowing for straightforward implementation without requiring external server configuration. A relational schema was designed to represent the core attributes of the system, including unique identifiers, names, types, and reservation status. This structure ensured that application data could be stored consistently and retrieved efficiently.
+
+The repository layer was refactored to handle database operations, replacing in-memory storage with SQL-based interactions. Insert and retrieval operations were implemented using prepared statements to ensure proper parameter handling and improve security by reducing the risk of SQL injection. Retrieved data was mapped back into domain objects, preserving the object-oriented design of the application while enabling persistent storage.
+
+This enhancement demonstrates the ability to integrate a database into an existing system while maintaining separation of concerns. By isolating data access logic within the repository layer, the service and application layers remain unaffected by the underlying storage mechanism. This reflects common industry practices and supports maintainability and scalability.
+
+Overall, this enhancement transforms the application from a temporary, session-based system into one capable of persistent data management. It demonstrates practical experience with relational databases, JDBC integration, and the role of data persistence in building reliable and realistic software systems.
+
 ---
 
 ### Code Review
