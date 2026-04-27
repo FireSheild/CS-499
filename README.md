@@ -20,6 +20,9 @@ Overall, this body of work reflects a transition from writing code that simply f
 
 ## Enhancements and Narratives
 
+Full Repo Here:
+[github.com/FireSheild/CS-499](https://github.com/FireSheild/CS-499)
+
 Enhancement One (V2) File:
 [improved_project_v2](https://github.com/FireSheild/CS-499/tree/main/v2%20)
 
@@ -31,7 +34,20 @@ Another important improvement is the shift from name-based identification to ID-
 The addition of a new animal type, the cat, serves as a practical test of the system’s flexibility. In the original design, adding a new type would have required modifying multiple areas of the code in inconsistent ways. In this version, the inheritance structure allows new animal types to be added with minimal changes, demonstrating that the system is becoming more extensible.
 Overall, Version 2 addresses the most fundamental issues in the original project. It replaces a tightly coupled structure with a layered approach, reduces logical errors by clarifying responsibilities, and sets the foundation for further improvements. While it is still relatively simple, it moves the project from a basic implementation toward something that can be reasonably maintained and expanded.
 
+Enhancement Two (V3) File:
+[improved_project_v3](https://github.com/FireSheild/CS-499/tree/main/v3)
 
+Narrative:
+
+This enhancement focuses on improving the efficiency and clarity of the application’s data processing logic through the use of more appropriate algorithms and data structures. In the original implementation, filtering and selection operations were handled using basic iteration with limited structure, resulting in redundant checks and reduced readability. While functionally correct, this approach did not scale well or clearly communicate the intent of the logic.
+
+To address this, the data handling logic was refactored to use more structured approaches to filtering and selection. Collections were used more effectively to organize data, and control flow was simplified to reduce unnecessary iteration and conditional complexity. These changes improved both the performance and readability of the code, making it easier to understand how data is processed and retrieved.
+
+The updated implementation emphasizes clear and efficient traversal of data, ensuring that each operation performs only the necessary work. By reducing redundant checks and organizing conditions more effectively, the algorithmic complexity of key operations was improved. This results in faster execution for larger data sets and a more maintainable codebase overall.
+
+This enhancement demonstrates the ability to evaluate and improve existing logic using algorithmic principles. It reflects an understanding of how data structures influence performance and how thoughtful design decisions can reduce complexity. The changes also improve code clarity, making the logic easier to follow and modify.
+
+Through this process, the application was enhanced from a basic implementation to one that better reflects efficient and structured problem solving. This work demonstrates the ability to analyze, refactor, and optimize code using appropriate algorithms and data structures, aligning with industry practices for building scalable and maintainable software systems.
 
 ---
 
